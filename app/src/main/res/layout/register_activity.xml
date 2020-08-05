@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DADADA"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Create Account"
+        android:textColor="#000"
+        android:textSize="28sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/register_edittext_bacground"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:padding="6dp"
+        android:elevation="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/register_edittext_bacground"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawableRight="@drawable/ic_remove_red_eye_black_24dp"
+        android:padding="6dp"
+        android:elevation="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/register_edittext_bacground"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:padding="6dp"
+        android:elevation="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/register_edittext_bacground"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:padding="6dp"
+        android:elevation="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_button"
+            android:text="create"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or create account using social media"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/iconfinder_facebook_circle_294710"
+            android:text="facebook"/>
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/iconfinder_twitter_circle_294709"
+            android:text="twitter"/>
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/iconfinder_google_circle_294707"
+            android:text="google plus"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
